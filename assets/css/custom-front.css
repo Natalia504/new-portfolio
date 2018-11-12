@@ -1,4 +1,74 @@
+/* Overlay color */
 .u-gradient-overlay-half-info-v1::before {
   background-image: linear-gradient(0deg, rgba(66, 0, 57, 0.92) 0%, rgba(147, 47, 109, 0.92) 100%);
   background-repeat: repeat-x;
+}
+
+/* LinkedIN color btn */
+.color-primary{
+  color: #420039;
+}
+.color-primary:hover{
+  color: #932F6D;
+}
+
+/* primary color:
+#420039
+rgb(66, 0, 57) */
+/* Secondary color:
+#932F6D
+rgb(147, 47, 109) */
+
+/* Primary button color */
+.btn-primary {
+  color: #fff;
+  background-color: #420039;
+  border-color: #420039;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #932F6D;
+  border-color: #932F6D;
+}
+
+/* secondary air */
+.u-icon-secondary--air {
+  color: #932F6D;
+  background: rgba(119, 131, 143, 0.1);
+}
+
+.u-icon-secondary--air[href]:hover, .u-icon-secondary--air[href]:focus, .u-icon-secondary--air[href]:active {
+  color: #fff;
+  background: #932F6D;
+}
+
+/* Filter Link color */
+.u-cubeportfolio .u-cubeportfolio__item.cbp-filter-item-active {
+  color: #420039;
+  font-weight: 600;
+  background-color: transparent;
+  border: transparent;
+}
+
+/* Hover on the project color */
+.u-cubeportfolio .cbp-caption-zoom .cbp-caption-activeWrap {
+    width: 100%;
+    background-color: rgba(147, 47, 109, 0.9);
+}
+
+/* border-color */
+.border-primary{
+  border-color: #420039 !important;
+}
+
+.box{
+  background-color: #E0DCE8;
+}
+/* Project box */
+.box img{
+  margin: 0 auto;
+  width: 280px;
+  height: 300px;
+  object-fit: scale-down;
 }

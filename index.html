@@ -10,7 +10,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
   <!-- Favicon -->
-  <!-- <link rel="shortcut icon" href="../../favicon.ico"> -->
+  <link rel="shortcut icon" href=".assets/img/myWork/favicon.ico">
 
   <!-- Google Fonts -->
   <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
@@ -41,7 +41,8 @@
         <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
           <!-- Logo -->
           <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-top-space" href="index.html" aria-label="Front">
-            <img src="../../assets/svg/logos/logo.svg" alt="Logo">
+            <!-- <img src="../../assets/svg/logos/logo.svg" alt="Logo"> -->
+            <h4 class="color-primary">Natalia Calt</h4>
           </a>
           <!-- End Logo -->
 
@@ -702,7 +703,7 @@
         <div class="col-md-8 col-lg-7 col-xl-5">
           <!-- Info -->
           <div class="mb-4">
-            <h1 class="display-4 text-white font-weight-normal mb-3">Natalia Calt</h1>
+            <h1 class="h2 text-white font-weight-normal mb-3">Web Developer</h1>
 
             <ul class="list-inline">
               <li class="list-inline-item">
@@ -725,7 +726,7 @@
 
 
           <!-- Avatar -->
-          <img class="img-fluid u-xl-avatar u-xl-avatar--bordered rounded-circle mx-auto" src="../../assets/img/160x160/img1.jpg" alt="Image Description">
+          <img class="img-fluid u-xl-avatar u-xl-avatar--bordered rounded-circle mx-auto" src="../../assets/img/myWork/Assets/ProfilePic.jpg" alt="Profile">
           <!-- End Avatar -->
         </div>
 
@@ -749,8 +750,8 @@
     <!-- End Author Section -->
 
     <!-- My projects section -->
-    <div class="container-fluid u-space-3 px-sm-5">
-      <div class="u-cubeportfolio">
+    <div class="container u-space-3 px-sm-5">
+      <div class="u-cubeportfolio u-cubeportfolio--reveal-v1">
         <!-- Filter -->
         <ul id="filterControls" class="list-inline cbp-l-filters-alignRight text-center">
           <li class="list-inline-item cbp-filter-item cbp-filter-item-active u-cubeportfolio__item" data-filter="*">All</li>
@@ -766,8 +767,12 @@
              data-layout="grid"
              data-controls="#filterControls"
              data-animation="quicksand"
+             data-caption-animation="zoom"
              data-x-gap="32"
              data-y-gap="32"
+             data-load-more-selector="#cubeLoadMore"
+             data-load-more-action="click"
+             data-load-items-amount="2"
              data-media-queries='[
               {"width": 1500, "cols": 4},
               {"width": 1100, "cols": 4},
@@ -775,117 +780,102 @@
               {"width": 480, "cols": 2},
               {"width": 300, "cols": 1}
             ]'>
-          <!-- Item -->
-          <div class="cbp-item graphic">
-            <a class="cbp-caption" href="../portfolio/single-page-simple.html">
-              <img class="rounded" src="../../assets/img/380x360/img1.jpg" alt="Image Description">
-              <div class="py-3">
-                <h4 class="h6 text-dark mb-0">Remind Me More</h4>
-                <p class="small mb-0">
-                  by Tiberiu Neamu
-                </p>
-              </div>
-            </a>
-          </div>
-          <!-- End Item -->
+            <!-- Item -->
+            <div class="cbp-item graphic rounded border">
+              <a class="cbp-caption" href="../portfolio/single-page-simple.html">
+                <div class="cbp-caption-defaultWrap box">
+                  <img src="./assets/img/myWork/Assets/ecommerce/Screen_Shot.png" alt="Image Description">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                  <div class="cbp-l-caption-alignCenter">
+                    <div class="cbp-l-caption-body">
+                      <h4 class="h6 text-white mb-0">E-Commerce clone</h4>
+                      <p class="small u-text-light mb-0">
+                        by Tiberiu Neamu
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- End Item -->
+            <!-- Item -->
+            <div class="cbp-item branding rounded border border">
+              <a class="cbp-caption" href="../portfolio/single-page-simple.html">
+                <div class="cbp-caption-defaultWrap box">
+                  <img src="./assets/img/myWork/Assets/techDecks/techdecks.home.png" alt="Image Description">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                  <div class="cbp-l-caption-alignCenter">
+                    <div class="cbp-l-caption-body">
+                      <h4 class="h6 text-white mb-0">Tech Decks Flashcards App</h4>
+                      <p class="small u-text-light mb-0">
+                        by Tiberiu Neamu
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- End Item -->
+            <!-- Item -->
+            <div class="cbp-item graphic rounded border border">
+              <a class="cbp-caption" href="../portfolio/single-page-simple.html">
+                <div class="cbp-caption-defaultWrap box">
+                  <img src="./assets/img/myWork/Assets/omnifood/omnifood-full.png" alt="Image Description">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                  <div class="cbp-l-caption-alignCenter">
+                    <div class="cbp-l-caption-body">
+                      <h4 class="h6 text-white mb-0">Omnifood</h4>
+                      <p class="small u-text-light mb-0">
+                        by Tiberiu Neamu
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- End Item -->
+            <!-- Item -->
+            <div class="cbp-item abstract rounded border border">
+              <a class="cbp-caption" href="../portfolio/single-page-simple.html">
+                <div class="cbp-caption-defaultWrap box">
+                  <img src="./assets/img/myWork/Assets/Denver.png" alt="Image Description">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                  <div class="cbp-l-caption-alignCenter">
+                    <div class="cbp-l-caption-body">
+                      <h4 class="h6 text-white mb-0">Weather App</h4>
+                      <p class="small u-text-light mb-0">
+                        by Tiberiu Neamu
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- End Item -->
+            <!-- Item -->
+            <div class="cbp-item illustration rounded border border">
+              <a class="cbp-caption" href="../portfolio/single-page-simple.html">
+                <div class="cbp-caption-defaultWrap box">
+                  <img src="./assets/img/myWork/Assets/library.png" alt="Image Description">
+                </div>
+                <div class="cbp-caption-activeWrap">
+                  <div class="cbp-l-caption-alignCenter">
+                    <div class="cbp-l-caption-body">
+                      <h4 class="h6 text-white mb-0">Library</h4>
+                      <p class="small u-text-light mb-0">
+                        by Tiberiu Neamu
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- End Item -->
 
-          <!-- Item -->
-          <div class="cbp-item branding">
-            <a class="cbp-caption" href="../portfolio/single-page-simple.html">
-              <img class="rounded" src="../../assets/img/380x360/img2.jpg" alt="Image Description">
-              <div class="py-3">
-                <h4 class="h6 text-dark mb-0">Workout Buddy</h4>
-                <p class="small mb-0">
-                  by Tiberiu Neamu
-                </p>
-              </div>
-            </a>
-          </div>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <div class="cbp-item abstract illustration">
-            <a class="cbp-caption" href="../portfolio/single-page-simple.html">
-              <img class="rounded" src="../../assets/img/380x360/img3.jpg" alt="Image Description">
-              <div class="py-3">
-                <h4 class="h6 text-dark mb-0">Tiger</h4>
-                <p class="small mb-0">
-                  by Cosmin Capitanu
-                </p>
-              </div>
-            </a>
-          </div>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <div class="cbp-item abstract illustration">
-            <a class="cbp-caption" href="../portfolio/single-page-simple.html">
-              <img class="rounded" src="../../assets/img/380x360/img5.jpg" alt="Image Description">
-              <div class="py-3">
-                <h4 class="h6 text-dark mb-0">Tiger</h4>
-                <p class="small mb-0">
-                  by Cosmin Capitanu
-                </p>
-              </div>
-            </a>
-          </div>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <div class="cbp-item graphic illustration">
-            <a class="cbp-caption" href="../portfolio/single-page-simple.html">
-              <img class="rounded" src="../../assets/img/380x360/img4.jpg" alt="Image Description">
-              <div class="py-3">
-                <h4 class="h6 text-dark mb-0">Tiger</h4>
-                <p class="small mb-0">
-                  by Cosmin Capitanu
-                </p>
-              </div>
-            </a>
-          </div>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <div class="cbp-item graphic illustration">
-            <a class="cbp-caption" href="../portfolio/single-page-simple.html">
-              <img class="rounded" src="../../assets/img/380x360/img6.jpg" alt="Image Description">
-              <div class="py-3">
-                <h4 class="h6 text-dark mb-0">Tiger</h4>
-                <p class="small mb-0">
-                  by Cosmin Capitanu
-                </p>
-              </div>
-            </a>
-          </div>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <div class="cbp-item graphic">
-            <a class="cbp-caption" href="../portfolio/single-page-simple.html">
-              <img class="rounded" src="../../assets/img/380x360/img15.jpg" alt="Image Description">
-              <div class="py-3">
-                <h4 class="h6 text-dark mb-0">Remind Me More</h4>
-                <p class="small mb-0">
-                  by Tiberiu Neamu
-                </p>
-              </div>
-            </a>
-          </div>
-          <!-- End Item -->
-
-          <!-- Item -->
-          <div class="cbp-item branding">
-            <a class="cbp-caption" href="../portfolio/single-page-simple.html">
-              <img class="rounded" src="../../assets/img/380x360/img17.jpg" alt="Image Description">
-              <div class="py-3">
-                <h4 class="h6 text-dark mb-0">Workout Buddy</h4>
-                <p class="small mb-0">
-                  by Tiberiu Neamu
-                </p>
-              </div>
-            </a>
-          </div>
-          <!-- End Item -->
         </div>
         <!-- End Content -->
       </div>
@@ -943,7 +933,7 @@
         <div class="col-lg-4 mb-7 mb-lg-0">
           <!-- Title -->
           <div class="pr-lg-4">
-            <a href="https://www.linkedin.com/in/nataliacalt/" target="_blank" noopener noreferrer>
+            <a class="color-primary" href="https://www.linkedin.com/in/nataliacalt/" target="_blank" noopener noreferrer>
               <span class="fab fa-linkedin h3"></span>
             </a>
               <h2 class="font-weight-bold">LinkedIn</h2>
@@ -989,7 +979,7 @@
   <!-- ========== END FOOTER ========== -->
 
   <!-- Go to Top -->
-  <a class="js-go-to u-go-to" href="#"
+  <a class="js-go-to u-go-to btn-primary" href="#"
     data-position='{"bottom": 15, "right": 15 }'
     data-type="fixed"
     data-offset-top="400"
