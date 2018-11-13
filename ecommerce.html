@@ -21,7 +21,6 @@
   <!-- CSS Implementing Plugins -->
   <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
   <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
-  <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
   <link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
   <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
   <link rel="stylesheet" href="../../assets/vendor/cubeportfolio/css/cubeportfolio.min.css">
@@ -32,22 +31,30 @@
 </head>
 
 <body>
-  <!-- Skippy -->
-  <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
-    <div class="container">
-      <span class="u-skiplink-text">Skip to main content</span>
-    </div>
-  </a>
-  <!-- End Skippy -->
 
   <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--abs-top-md u-header--show-hide-md shadow-md">
+    <div class="u-header__section bg-primary">
 
+      <div id="logoAndNav" class="container">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar">
+          <!-- Logo -->
+          <a href="index.html">
+            <h1 class="h2 text-white font-weight-bold my-2">Natalia Calt</h1>
+          </a>
+          <!-- End Logo -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
   <!-- ========== END HEADER ========== -->
 
   <!-- ========== MAIN ========== -->
   <main id="content" role="main">
     <!-- Front in Frames Section -->
-    <div class="container u-space-3">
+    <div class="container u-space-3-top">
       <div class="row justify-content-between align-items-center">
         <div class="col-lg-5 mb-7 mb-lg-0">
           <div class="pr-md-4">
@@ -161,7 +168,7 @@
           <figure class="w-100 u-content-centered-y z-index-minus-1">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                  viewBox="0 0 1109.8 797.1" style="enable-background:new 0 0 1109.8 797.1;" xml:space="preserve">
-              <path class="u-fill-primary" opacity=".05" d="M105.1,267.1C35.5,331.5-3.5,423,0.3,517.7c5.8,145.3,110.7,314.2,588,273.1c753-64.7,481.3-358.3,440.4-398.3
+              <path class="u-fill-primary" opacity=".07" d="M105.1,267.1C35.5,331.5-3.5,423,0.3,517.7c5.8,145.3,110.7,314.2,588,273.1c753-64.7,481.3-358.3,440.4-398.3
                 c-4-3.9-7.9-7.9-11.7-12L761.9,104.8C639.4-27.6,432.5-35.6,299.9,87L105.1,267.1z"/>
             </svg>
           </figure>
@@ -170,16 +177,12 @@
       </div>
     </div>
     <!-- End Front in Frames Section -->
-
   </main>
   <!-- ========== END MAIN ========== -->
 
-  <!-- ========== FOOTER ========== -->
-
-  <!-- ========== END FOOTER ========== -->
 
   <!-- Go to Top -->
-  <a class="js-go-to u-go-to" href="#"
+  <a class="js-go-to u-go-to-modern btn-primary" href="#"
     data-position='{"bottom": 15, "right": 15 }'
     data-type="fixed"
     data-offset-top="400"
@@ -197,7 +200,6 @@
   <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
   <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
   <script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
   <script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
@@ -216,15 +218,6 @@
 
   <!-- JS Plugins Init. -->
   <script>
-    $(window).on('load', function () {
-      // initialization of HSMegaMenu component
-      $('.js-mega-menu').HSMegaMenu({
-        event: 'hover',
-        pageContainer: $('.container'),
-        breakpoint: 768,
-        hideTimeOut: 0
-      });
-    });
 
     $(document).on('ready', function () {
       // initialization of header

@@ -4,13 +4,18 @@
   background-repeat: repeat-x;
 }
 
-/* LinkedIN color btn */
 .color-primary{
   color: #420039;
 }
 .color-primary:hover{
   color: #932F6D;
 }
+
+.color-secondary{
+  color: #932F6D;
+}
+
+
 
 /* primary color:
 #420039
@@ -63,7 +68,9 @@ rgb(147, 47, 109) */
 }
 
 .box{
-  background-color: #E0DCE8;
+  /* background-color: #E0DCE8; */
+  /* background-color: #420039; */
+  background-color: #9C417A;
 }
 /* Project box */
 .box img{
@@ -92,4 +99,19 @@ rgb(147, 47, 109) */
 
 .u-media-viewer__icon:hover, .u-media-viewer__icon:focus {
   color: #fff;
+}
+
+/* Nav Item */
+.u-header__nav-item:hover .u-header__nav-link, .u-header__nav-item:focus .u-header__nav-link {
+  color: #932F6D;
+}
+
+/* Nav Link */
+.u-header .active > .u-header__nav-link {
+  color: #932F6D;
+}
+
+/* Background color */
+.bg-primary{
+  background-color: #420039 !important;
 }
