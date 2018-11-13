@@ -1,6 +1,6 @@
 /* Overlay color */
 .u-gradient-overlay-half-info-v1::before {
-  background-image: linear-gradient(0deg, rgba(66, 0, 57, 0.92) 0%, rgba(147, 47, 109, 0.92) 100%);
+  background-image: linear-gradient(0deg, rgba(66, 0, 57, 0.9) 0%, rgba(147, 47, 109, 0.9) 100%);
   background-repeat: repeat-x;
 }
 
@@ -24,7 +24,7 @@ rgb(66, 0, 57) */
 #932F6D
 rgb(147, 47, 109) */
 
-/* Primary button color */
+/* Button color */
 .btn-primary {
   color: #fff;
   background-color: #420039;
@@ -35,6 +35,19 @@ rgb(147, 47, 109) */
   color: #fff;
   background-color: #932F6D;
   border-color: #932F6D;
+}
+
+.btn-outline-primary {
+  color: #fff;
+  background-color: transparent;
+  background-image: none;
+  border-color: #420039;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #420039;
+  border-color: #420039;
 }
 
 /* secondary air */
@@ -68,8 +81,6 @@ rgb(147, 47, 109) */
 }
 
 .box{
-  /* background-color: #E0DCE8; */
-  /* background-color: #420039; */
   background-color: #9C417A;
 }
 /* Project box */
@@ -114,4 +125,41 @@ rgb(147, 47, 109) */
 /* Background color */
 .bg-primary{
   background-color: #420039 !important;
+}
+.bg-secondary{
+  background-color: #932F6D !important;
+}
+
+/*------------------------------------
+  Icon Air Styles
+------------------------------------*/
+/* primary air */
+.u-icon-primary--air {
+  color: #fff;
+  background: rgba(234, 241, 255, 0.4);
+}
+
+.u-icon-primary--air[href]:hover, .u-icon-primary--air[href]:focus, .u-icon-primary--air[href]:active {
+  color: #fff;
+  background: #eee;
+}
+
+/*------------------------------------
+  Media Queries
+------------------------------------*/
+@media screen and (max-width: 768px){
+  .project-btn{
+    width: 100%;
+    display: block !important;
+    text-align: center;
+  }
+
+  .project-img{
+    margin-bottom: 100px;
+  }
+
+  .contact{
+    width: 30%;
+    display: block;
+  }
 }
