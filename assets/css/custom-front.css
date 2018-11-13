@@ -72,3 +72,24 @@ rgb(147, 47, 109) */
   height: 300px;
   object-fit: scale-down;
 }
+
+/* plus icon on hover */
+.u-media-viewer__icon {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  font-size: 0.75rem;
+  color: #fff;
+  background-color: #932F6D;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  transition: 0.3s ease-in-out;
+}
+
+.u-media-viewer__icon:hover, .u-media-viewer__icon:focus {
+  color: #fff;
+}
